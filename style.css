@@ -11,7 +11,7 @@ body{
 .header-container{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to right, #0c0c0c  ,#142416f8);
+    background: linear-gradient(to right, #0c0c0c ,#142416f8);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
