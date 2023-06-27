@@ -11,9 +11,7 @@ body{
 .header-container{
     height: 100vh;
     width: 100vw;
-    /* background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
-
-    background-color: rgb(43, 77, 43);
+    background: linear-gradient(to right, #0c0c0c  ,#142416f8);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -45,7 +43,7 @@ h2{
     text-decoration: none;
     color: rgb(82, 241, 8);
     padding: 1rem 4rem;
-    border:  1px solid rgb(173, 31, 31);
+    border:  1px solid rgb(82, 241, 8);
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -140,7 +138,7 @@ a:hover{
 
 .menu-itens ul li a{
     margin: 10px 0;
-    color: green;
+    color: rgb(82, 241, 8);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -202,13 +200,13 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    background-color: rgb(82, 241, 8);
     background-image: url('img/image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
-    color: green;
+    color: rgb(82, 241, 8);
     cursor: pointer;
     transition: 00.5s ease-in-out;
 }
@@ -233,7 +231,7 @@ a:hover{
     width: 100px;
     border-radius: 50%;
     display: block;
-    border: 1px solid green;
+    border: 1px solid rgb(82, 241, 8);
     opacity: 0;
     transition: 0.5s ease-in-out;
     
@@ -249,7 +247,7 @@ a:hover{
 }
 
 .card-wrapper p{
-    color:green;
+    color:rgb(82, 241, 8);
     font-size: 0;
     visibility: visible;
     opacity: 0;
@@ -277,15 +275,60 @@ a:hover{
 .footer{
     width: 100%;
     height: 100px;
-    background-color: green;
+    background: linear-gradient(to right, #0c0c0c  ,#142416f8);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #111111;
+    color: rgb(82, 241, 8);;
 }
 
+
+/* Mobile */
 @media only screen and (max-width: 540px) {
-   h1{
+  
+   
+    h1{
+    font-size: 24px;
+    
+   }
+   .social-midia{
+    display: inline;
+   }
+   .checkbox .trace{
+    width: 40px;
+   
+   }
+   .card-container{
+    display: inline
+   
+ 
+   }
+   .container{
+    justify-items: center;
+    align-items: center;
+    margin: 3rem;
+    
+   }
+.card{
+    width: 150px;
+    height: 150px;
+}
+.card-wrapper h2 {
+    font-size: 18px;
+    
+  }
+.card-wrapper p{
+    font-size: 12;
+    color: #ffffff;
+    
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width: 600px) {
+  
+   
+    h1{
     font-size: 24px;
     
    }
