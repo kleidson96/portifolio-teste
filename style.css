@@ -322,6 +322,9 @@ a:hover{
     color: #ffffff;
     
   }
+  a:hover{
+    background-color: none;
+  }
 }
 
 /* Tablet */
