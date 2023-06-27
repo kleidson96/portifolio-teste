@@ -53,5 +53,8 @@ h2{
         width: 150px;
         border-radius: 90%;
     }
+    .text{
+        width: 50vw;
+    }
     
 }
