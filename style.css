@@ -203,7 +203,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     background-color: green;
-    background-image: url('http://www.unirio.br/propg/jornadapg/imagens/em-breve/image');
+    background-image: url('img/image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@ a:hover{
     width: 100px;
     border-radius: 50%;
     display: block;
-    border: 1px solid #ffffff;
+    border: 1px solid green;
     opacity: 0;
     transition: 0.5s ease-in-out;
     
