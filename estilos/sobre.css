@@ -3,11 +3,13 @@
 body{
     margin: 0;
     padding: 0;
+    background: linear-gradient(to right, #0c0c0c ,#142416f8);
     
     
     
 }
 .main{
+    
     color: rgb(82, 241, 8);
     font-family: 'Baloo Thambi 2',sans-serif;
     height: 100vh;
@@ -16,7 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to right, #0c0c0c ,#142416f8);
+    
     
 }
 
@@ -36,8 +38,17 @@ body{
 
 .text{
       height: 200px;
-      width: 500px;
+      width: 50vw;
       
     
  
+}
+
+@media only screen and (max-width: 450px){
+    .box-img{
+        width: 150px;
+        height: 150px;  
+        border-radius: 50%;
+    }
+    
 }
