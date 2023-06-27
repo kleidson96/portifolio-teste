@@ -271,7 +271,7 @@ a:hover{
 .card:hover > .card-wrapper p{
     opacity: 1;
     visibility: visible;
-    font-size: 14px;
+    font-size: 14;
 }
 
 .footer{
