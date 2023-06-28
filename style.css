@@ -272,7 +272,7 @@ a:hover{
 }
 
 .footer{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background: linear-gradient(to right, #0c0c0c  ,#142416f8);
     display: flex;
