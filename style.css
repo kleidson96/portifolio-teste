@@ -12,7 +12,6 @@ body{
     height: 100vh;
     width: 100vw;
     background: linear-gradient(to right, #0c0c0c ,#142416f8);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     display: flex;
@@ -22,9 +21,10 @@ body{
     box-sizing: border-box;
     padding: 0 112px;
     position: relative;
+    
 
 }
-h1{
+.header-container h1{
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -103,7 +103,6 @@ a:hover{
 /* Menu */
 .menu{
     height: 4px;
-    width: 10px;
     position: absolute;
     top: 28px;
     right: 30px;
@@ -127,7 +126,7 @@ a:hover{
     z-index: 2;
     opacity: 0;
     visibility: hidden;
-    transition:  400ms ease-in-out 0s;
+    transition: 400ms ease-in-out 0s;
 
 }
 
@@ -208,7 +207,7 @@ a:hover{
     filter: grayscale(0.5);
     color: rgb(82, 241, 8);
     cursor: pointer;
-    transition: 00.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .card-text{
@@ -242,7 +241,7 @@ a:hover{
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0;
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in-out;
 
 }
 
@@ -280,90 +279,4 @@ a:hover{
     align-items: center;
     justify-content: center;
     color: rgb(82, 241, 8);;
-}
-
-
-/* Mobile */
-@media only screen and (max-width: 540px) {
-  
-   
-    h1{
-    font-size: 24px;
-    
-   }
-   .social-midia{
-    display: inline;
-   }
-   .checkbox .trace{
-    width: 40px;
-   
-   }
-   .card-container{
-    display: inline
-   
- 
-   }
-   .container{
-    justify-items: center;
-    align-items: center;
-    margin: 3rem;
-    
-   }
-.card{
-    width: 150px;
-    height: 150px;
-}
-.card-wrapper h2 {
-    font-size: 18px;
-    
-  }
-.card-wrapper p{
-    font-size: 12;
-    color: #ffffff;
-    
-  }
-  a:hover{
-    background-color: none;
-  }
-}
-
-/* Tablet */
-@media only screen and (max-width: 600px) {
-  
-   
-    h1{
-    font-size: 24px;
-    
-   }
-   .social-midia{
-    display: inline;
-   }
-   .checkbox .trace{
-    width: 40px;
-   
-   }
-   .card-container{
-    display: inline
-   
- 
-   }
-   .container{
-    justify-items: center;
-    align-items: center;
-    margin: 3rem;
-    
-   }
-.card{
-    width: 150px;
-    height: 150px;
-}
-.card-wrapper h2 {
-    font-size: 18px;
-    
-  }
-.card-wrapper p{
-    font-size: 12;
-    color: #ffffff;
-    
-  }
 }

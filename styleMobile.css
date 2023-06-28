@@ -1,0 +1,61 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 450px) {
+    .header-container {
+      width: 150%;
+      box-sizing: border-box;
+      
+    }
+  
+    .header-container h1 {
+      font-size: 32px;
+    }
+  
+    .social-media a {
+      padding: 0.5rem 2rem;
+    }
+  
+    .checkbox {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .checkbox .trace {
+      height: 2px;
+      width: 30px;
+    }
+  
+    .menu {
+      top: 16px;
+      right: 20px;
+    }
+  
+    .menu-items ul li a {
+      font-size: 24px;
+    }
+  
+    .card-container {
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .card-text {
+      width: 60%;
+    }
+  
+    .card-wrapper::before {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .card-wrapper h2 {
+      font-size: 32px;
+    }
+  
+    .card-wrapper p {
+      font-size: 12px;
+    }
+  }
