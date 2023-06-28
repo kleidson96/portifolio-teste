@@ -1,5 +1,5 @@
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width:540px){
+@media only screen and (max-width:450px){
     .header-container {
       width: 150%;
       box-sizing: border-box;
